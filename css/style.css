@@ -1,9 +1,7 @@
 /* change these */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Yantramanav:wght@100&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -14,32 +12,22 @@ use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: #a69090;
+  --link-color: #80a68a;
+  --link-hover-color: #f2ebeb;
+  --color-4: #ffffff;
+  --color-5: #ebf2ed;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Marcellus", serif;
+  --secondary-font: "Yantramanav", sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
 }
 
-button {
-  transition: all 3s;
-}
-a {
-  transition: all 3s;
-}
 button:hover {
   background-color: var(--link-hover-color);
   transform: scale(3) rotate(40deg);
-}
-
-button:active {
-  background-color: var(--bg-color);
 }
 
 a:hover {
@@ -187,22 +175,13 @@ button {
   font: bold 1.25em/1 var(--primary-font);
   letter-spacing: 1px;
   color: white;
-  text-transform: uppercase;
   text-shadow: 0px -1px 0px #0374a0;
-  transition: all 0.2s ease;
   cursor: pointer;
   margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
   background: var(--color-5);
-}
-
-button:focus,
-button:active,
-button:focus-within {
-  outline: 0;
-  border-radius: 4px;
 }
 
 .typography-main {
